@@ -7,7 +7,7 @@ if follow != noone{
 	else if (follow.x-viewidth/2<0) xTo = 0+viewidth/2
 	else xTo=follow.x;
 	
-	if (follow.y+viewheight/2>room_height) yTo = room_height-viewheight/2;
+	if (follow.y+viewheight/2>room_height) yTo = room_height-viewheight/2 + 11;
 	else if (follow.y-viewheight/2<0) yTo = 0+viewheight/2
 	else yTo=follow.y;
 }
